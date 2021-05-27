@@ -69,7 +69,6 @@ public class PanelCliente extends JPanel {
 	 * 
 	 */
 	private void cargarActualDesdePantalla() {
-		this.actual.setId(Integer.parseInt(jtfId.getText()));
 		this.actual.setNombre(jtfNombre.getText());
 		this.actual.setApellidos(jtfApellidos.getText());
 		this.actual.setLocalidad(jtfLocalidad.getText());
